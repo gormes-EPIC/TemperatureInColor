@@ -61,7 +61,7 @@ while True:
 ## Part 3: Temperature Decay
 
 1. Modify your program above to send your  output to a new file, `temperature.csv`, instead of printing to the terminal.
-2. The next step is to record temperature decay of hot air. Place your sensor under a box. Place a hand warmer on the lid of the box. The temperature inside should slowly rise. After 5 minutes, quickly remove the hand warmer and record until the temperature returns to the average room temperature.
+2. The next step is to record temperature decay of cold air. Place your sensor under a box. Place an ice pack in the box. The temperature inside should slowly rise. After 5 minutes, quickly remove the ice pack and record until the temperature returns to the average room temperature.
 
 - [ ]  Upload `temperature.csv` and your code file, `temperature.py` to your repository.
 ## Part 4: Plotting and Results
