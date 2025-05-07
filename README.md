@@ -54,7 +54,7 @@ while True:
         sensor.exit()
         raise error    
 ``` 
-3. Once your program runs correctly and is outputting temperatures, combine the starter code with your LED program to turn on a red light when the temperature is above 72 degrees, and the blue light when the temperature is below 72 degrees.  
+3. We are now going to use Python to model a piecewise function. When the temperature is over 72 degrees the red light will turn on and when the temperature is below 72 degrees the blue light will turn on. Once your program runs correctly and is outputting temperatures, combine the starter code with your LED program to turn on a red light when the temperature is above 72 degrees, and the blue light when the temperature is below 72 degrees.  
 
 - [ ] Upload a video of your functional program.
 
