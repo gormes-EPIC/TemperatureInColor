@@ -1,4 +1,11 @@
 # Temperature in Color
+
+## Objective
+1. Create a program to collect temperature data from a DHT11 sensor
+2. Write to a file from inside a Python program
+3. Make a graph with a line of best fit to illustrate temerature decay
+
+
 ## Materials
 
 - 1 red and 1 blue 5mm LED
