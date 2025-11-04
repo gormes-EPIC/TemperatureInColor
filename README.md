@@ -81,6 +81,7 @@ while True:
 ## Resources
 
 - [DHT11/DHT22 Tutorial](https://randomnerdtutorials.com/raspberry-pi-dht11-dht22-python/)
+- [Alternate Library](https://pypi.org/project/dht11/)
 
 ## Rubric 
 
