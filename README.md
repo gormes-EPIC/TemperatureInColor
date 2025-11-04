@@ -1,5 +1,4 @@
-
-# Lab 11: Temperature in Color
+# Temperature in Color
 ## Materials
 
 - 1 red and 1 blue 5mm LED
