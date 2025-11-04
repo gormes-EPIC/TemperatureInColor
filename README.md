@@ -14,9 +14,10 @@
 
 - [ ] There is nothing to submit for this part.
 ## Part 2: Temperature Indicator
-![Pasted image 20250429141243](https://github.com/user-attachments/assets/b2b90692-78a1-40ab-8965-13b179dc96a9)
+<img width="550" height="509" alt="Untitled drawing(18)" src="https://github.com/user-attachments/assets/6591a7fe-b5ff-497c-921c-abd832ad4aff" />
 
-1. Wire your DHT11 temperature and humidity sensor using the diagram above. Attach the sensor to GPIO pin 16 or adjust the code accordingly.
+
+1. Wire your DHT11 temperature and humidity sensor using the diagram above. **Note: There are two different types of DHT11. Be careful about which one you have.** Attach the sensor to GPIO pin 16 or adjust the code accordingly.
 2. Activate your virtual environment and install the necessary library with `python3 -m pip install adafruit-circuitpython-dht` in your terminal. 
 3. Copy the following starter code into your program. Complete the method `to_farienheit(c)` before running. 
 ```python
@@ -60,8 +61,8 @@ while True:
 
 ## Part 3: Temperature Decay
 
-1. Modify your program above to send your  output to a new file, `temperature.csv`, instead of printing to the terminal.
-2. The next step is to record temperature decay of cold air. Place your sensor under a box. Place an ice pack in the box. The temperature inside should slowly rise. After 5 minutes, quickly remove the ice pack and record until the temperature returns to the average room temperature.
+1. Modify your program above to send your  output to a new file, `temperature.csv`, instead of printing to the terminal. "CSV" stands for comma separated values. Each line of your file should contain "time, temperature". Make sure your file is writing to new lines! It will not automatically add the line breaks for you! Otherwise you will have one really long line and need to split it apart. 
+2. The next step is to record temperature decay of cold air. Place an ice pack on your sensor for a few minutes then remove the ice pack. The temperature should slowly rise until it returns to room temperature. 
 
 - [ ]  Upload `temperature.csv` and your code file, `temperature.py` to your repository.
 ## Part 4: Plotting and Results
@@ -80,6 +81,7 @@ while True:
 ## Resources
 
 - [DHT11/DHT22 Tutorial](https://randomnerdtutorials.com/raspberry-pi-dht11-dht22-python/)
+
 ## Rubric 
 
 - 6 points - All required items are present.    
